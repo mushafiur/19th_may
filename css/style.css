@@ -1,0 +1,130 @@
+/*fonts links*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*common css start*/
+body{
+	margin:0;
+	padding:0;
+	font-family: "Playfair Display", serif;
+	font-size:16px;
+	font-weight:400;
+	color:#626262;
+}
+/*common css end*/
+
+/*header start*/
+header{
+	padding: 30px 0;
+}
+.container{
+	overflow:hidden;
+	width:90%;
+	margin:0 auto;
+	/*border:1px solid;*/
+}
+.logo{
+	margin-top:10px;
+	float:left;
+	width:12%;
+	/*border:1px solid;*/
+}
+.logo a img{
+	width:100%;
+}
+.menu{
+	float:right;
+	width:65%;
+	/*border:1px solid;*/
+}
+.menu ul{
+	float:right;
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+}
+.menu ul li a{
+	margin:0 55px;
+	color:#626262;
+	text-decoration: none;
+	text-transform:uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .33s linear;
+	
+}
+.menu ul li:last-child a{
+	margin-right:0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width:100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+	padding:100px 0;
+}
+.container2{
+	margin:0 auto;
+	width:80%;
+	/*border:1px solid;*/
+}
+.g_content{}
+.light{
+	font-family: "Ubuntu", sans-serif;
+	font-size:14px;
+	font-weight:300;
+	text-transform: uppercase;
+
+}
+.title{
+	margin:20px 0 30px;
+	font-size:30px;
+	font-weight: 400;
+}
+.text{
+	margin:0;
+    line-height: 24px;
+}
+	
+.g_link{
+	display: inline-block;
+	margin-top:40px;
+	color:#626262;
+	text-decoration:none;
+}
+
+
+/*getaway end*/
+
+/*blog start*/
+.blog{
+	padding:0 0 100px;
+}
+.bl_content{
+	overflow:hidden;
+}
+
+.bl_item{
+	float:left;
+	width:47%;
+	/*border:1px solid;*/
+	box-sizing: border-box;
+}
+.bl_item:nth-child(even){
+	margin-left:6%;
+}
+.bl_img{
+	margin-bottom:20px;
+}
+.bl_img img{
+	width:100%;
+}
+
+/*blog end*/
